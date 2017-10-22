@@ -1,0 +1,19 @@
+{
+    "name": "src/basic",
+    "description": "on my own framework mvc with php 7",
+    "authors": [
+        {
+            "name": "erickmaria08",
+            "email": "erickmaria08@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "classmap": [
+        "core/src",
+        "app/Models",
+        "app/Views",
+        "app/Controllers"
+       ]
+    }
+}
